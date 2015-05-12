@@ -9,6 +9,7 @@ var dogAge = humanAge * 7;
 //Print out the output using concatenation for the variables.
 console.log("Sparky is " +humanAge+ " human years old which is " +dogAge+ " in dog years.");
 
+
 //PROBLEM 2
 
 //Create variables for number of slices per pizza.
@@ -20,21 +21,41 @@ var numberofPeople = 10;
 //Create variable for number of pizzas ordered.
 var pizzaOrdered = 5;
 
-//Create variable "r" to = pizzaOrdered * slicesperPizza.
+//Create variable "r" to = pizzaOrdered * slicesperPizza. That will give the total amount of slices.
 var r = pizzaOrdered * slicesperPizza;
 
-//Create variable "p" to = r / numberofPeople.
+//Create Result variable "p" to = r / numberofPeople. This will give you how many slices each person gets.
 var p = r / numberofPeople;
 
 //Print out the output using concatenation for the variable.
 console.log("Each person ate " +p+ " slices of pizza at the party.");
 
 
+
 //PROBLEM 3
 
+//Create variable for number of slices per pizza.
+var slicesperPizza = 8;
 
+//Create variable for how many people are at the party.
+var numberofPeople = 10;
 
+//Create variable for number of pizzas ordered.
+var pizzaOrdered = 5;
 
+//Create variable "r" to = pizzaOrdered * slicesperPizza. That will give the total amount of slices.
+var r = pizzaOrdered * slicesperPizza;
+
+//Create variable "p" to = r / numberofPeople. This will give you how many slices each person gets.
+var p = r / numberofPeople;
+
+//Create variable for total whole slices available to eat.
+var totalwholeSlices = p * numberofPeople;
+
+//Create the result variable for how many slices Sparky gets to eat.
+var sparkyEats = totalwholeSlices - totalwholeSlices;
+
+console.log("Sparky got " +sparkyEats+ " slices of pizza.");
 
 
 
