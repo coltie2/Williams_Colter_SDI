@@ -55,7 +55,7 @@ var wholePeices = 4;
 //Create variable to turn 4.44 into .44
 var leftoverperPerson = p - wholePeices;
 
-//Create variable for what Sparky gets to eat.
+//Create Result variable for what Sparky gets to eat.
 var sparkyEats = leftoverperPerson * numberofPeople;
 
 //Print out the output using concatenation for the variable.
@@ -65,9 +65,23 @@ console.log("Sparky got " +sparkyEats+ " slices of pizza.");
 
 //PROBLEM 4
 
+//Create and array with 5 weekly grocery totals.
+var groceryTotals = [105, 130, 117, 104, 109]; // 0,1,2,3,4
+
+//Create a variable (total) for how much is spent in 5 weeks.
+var total = groceryTotals[0] + groceryTotals[1] + groceryTotals[2] + groceryTotals[3] +groceryTotals[4];
+
+// Result: create a console.log(total) to find the total amount spend on groceries in a 5 week period.
+console.log(total); //adds up to $565
+
+//Result: create a var for averageSpending and make it total / 5.
+var averageSpending = total / 5;
+
+//Print out the output using concatenation for the variables.
+console.log("You have spent a total of $" +total+ " on groceries over 5 weeks. That is an average of $" +averageSpending+ " per week.");
 
 
-
+//PROBLEM 5
 
 
 
