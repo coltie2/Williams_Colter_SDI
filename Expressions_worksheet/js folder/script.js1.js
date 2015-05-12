@@ -65,7 +65,7 @@ console.log("Sparky got " +sparkyEats+ " slices of pizza.");
 
 //PROBLEM 4
 
-//Create and array with 5 weekly grocery totals.
+//Given:Create and array with 5 weekly grocery totals.
 var groceryTotals = [105, 130, 117, 104, 109]; // 0,1,2,3,4
 
 //Create a variable (total) for how much is spent in 5 weeks.
@@ -82,6 +82,38 @@ console.log("You have spent a total of $" +total+ " on groceries over 5 weeks. T
 
 
 //PROBLEM 5
+
+//Given:Create variable for original price.
+var originalPrice = 20.00;
+
+//Given:Create variable for discounted percentage.
+var discountPercentage = .05;
+
+//Given:Create variable for description of item (hat).
+var hat = "hat";
+
+//Given:Create variable for sales tax percentage.
+var salesTax = .015;
+
+//Create an expression that will take calculate the discount amount.
+
+var discount = originalPrice * discountPercentage; //equals $1
+
+//Result: Create an expression that will calculate the discount price without tax.
+var discountPrice = originalPrice - discount; //equals $19
+
+//Result: Discounted item price with tax.
+var itemwithTax = discountPrice * salesTax + discountPrice; // equals $19.285
+
+//Print out the output using concatenation for the variables.
+console.log("Your " +hat+ " was originally $" +originalPrice+ " but after a " +discountPercentage+ " discount, it is now $" +discountPrice+ " without tax, and $" +itemwithTax+ " with tax.");
+
+
+
+
+
+
+
 
 
 
