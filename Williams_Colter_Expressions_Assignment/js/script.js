@@ -96,7 +96,7 @@ alert("Since cement is ordered by the cubic yard, this calculator will now give 
 
 /*
  //Create variable for 27 cubic feet.
- var endResult = 27; //This isn't needed after applying the /= assignment operator below. But it was in my original method.
+ var endResult = 27;
  */
 //Add loading screen joke
 //alert("Beep..Boop..Boop..Loading answer!");
