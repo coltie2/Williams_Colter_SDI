@@ -18,8 +18,13 @@ console.log(height);
 var depth = prompt("Please enter your depth");
 console.log(depth);
 
+//Add loading screen joke
+alert("Beep..Boop..Boop..Loading answer");
+
 //Create a array using the variable above an label it font dimensions.
 fontDimensions = [width,height,depth]; // 0,1,2
+
+
 
 
 
