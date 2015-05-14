@@ -26,6 +26,8 @@ fontDimensions = [width,height,depth]; // 0,1,2
 
 //Create an alert and times the 3 parts of the array together to get how many cubic feet you have.
  alert("You have " +fontDimensions[0] * +fontDimensions[1] * +fontDimensions[2] +" cubic feet!");
+//Use console.log to track numbers.
+console.log("You have " +fontDimensions[0] * +fontDimensions[1] * +fontDimensions[2] +" cubic feet!");
 
 //Cement is ordered by the cubic YARD so we must now convert cubic "feet" to cubic YARDS.
 // 1 cubic yard is 27 cubic feet
@@ -34,9 +36,13 @@ alert("Since cement is ordered by the cubic yard, this calculator will now give 
 //Create variable for 27 cubic feet/
 var endResult = 27;
 
-//Devide the total amount of cubic feet entered by 27 cubic feet.
-alert("You will need " +fontDimensions[0] * +fontDimensions[1] * +fontDimensions[2] / +endResult +" cubic yards");
+//Add loading screen again because why not/
+alert("Beep..Boop..Boop..Loading answer!");
 
+//Devide the total amount of cubic feet entered by 27 cubic feet.
+alert("You will need " +fontDimensions[0] * +fontDimensions[1] * +fontDimensions[2] / +endResult +" cubic yards.");
+//Make final output
+console.log("You will need " +fontDimensions[0] * +fontDimensions[1] * +fontDimensions[2] / +endResult +" cubic yards.");
 
 
 
