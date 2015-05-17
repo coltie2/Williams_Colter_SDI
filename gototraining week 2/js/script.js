@@ -7,7 +7,7 @@ section 01
 //alert("testing to see if connected");
 
 // create an age calculator
-/*
+
 //ask the user their name
 var name = prompt("please type in your name:");
 //console log the name to check it.
@@ -42,12 +42,12 @@ console.log(futureAge);
 //make final output
 console.log(name+" you will be "+futureAge+" in "+yearsMore+" years.");
 alert(name+" you will be "+futureAge+" in "+yearsMore+" years.");
-*/
+
 
 
 
 //ARRAYS
-
+/*
 //create array for comic book prices
 //then total for all comics
 var comicPrices = [4,12,5]; //0,1,2
@@ -60,4 +60,4 @@ comicPrices[3]=Number(prompt("what is the value of your 4th book?"));
 var comicsTotal = comicPrices[0] +comicPrices[1] +comicPrices[2] +comicPrices[3];
 console.log("the total value of your comics is " +comicsTotal);
 
-
+*/
