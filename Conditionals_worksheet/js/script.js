@@ -28,65 +28,93 @@ alert("The temerature is" +fahrenheitResult +" degrees Celsius. Or the temperatu
 console.log("The temerature is" +fahrenheitResult +" degrees Celsius. Or the temperature is" +celsiusResult +" degrees Fahrenheit");
 */
 
-//PROBLEM 2:
+/*//PROBLEM 2:
+
+//First we create the user prompt for the given
+
+var grade = prompt("What is your grade in percent?");
+
+//Then we make the conditional code to test what grade the student gets.
+
+if(grade >= 90){
+
+    console.log("You have a " +grade+ "% which means you have earned a A in the class.");
+
+}else if(grade >= 80){
+
+    console.log("You have a " +grade+ "% which means you have earned a B in the class.");
+
+}else if(grade >= 70){
+
+    console.log("You have a " +grade+ "% which means you have earned a C in the class.");
+
+}else if(grade >= 60){
+
+    console.log("You have a " +grade+ "% which means you have earned a D in the class.");
+
+}else {
+
+    console.log("You have a " +grade+ "% which means you have earned a F in the class.");
 
 
-//varible for grade in percent
-var gradePercent = 96;
+}
 
-
-
-//gradeA = 95 <= 100;
-
-//grade = (gradePercent > 95) && (gradePercent < 101);
-
-
-var A = (gradePercent > 95) && (gradePercent < 101);
-
-console.log("You have a " +gradePercent +" which means you have earned an " +A);
-
-
-
-
-
-
-
-
-
-
-
-/*grade = (gradePercent < 101);
-grade = (gradePercent > 95);
-
-grade = (gradePercent < 94);
-grade = (gradePercent > 90);
-
-grade = (gradePercent < 89);
-grade = (gradePercent > 85);
-
-grade = (gradePercent < 84);
-grade = (gradePercent > 80);
-
-grade = (gradePercent < 79);
-grade = (gradePercent > 76);
-
-grade = (gradePercent < 75);
-grade = (gradePercent > 73);
-
-grade = (gradePercent < 72);
-grade = (gradePercent > 70);
-
-grade = (gradePercent < 69);
-grade = (gradePercent > 0);
-
-console.log(grade);
 */
 
+//PROBLEM 3
+
+//pressure for each tire pressure
+var frontOne = prompt("Enter tire pressure for the left front tire");
+var frontTwo = prompt("Enter tire pressure for the right front tire");
+var backOne = prompt("Enter tire pressure for the back left tire");
+var backTwo = prompt("Enter tire pressure for the back right tire");
+var result;
+// create an array for the tire pressures.
+var allTires = [frontOne,frontTwo,backOne,backTwo]; //0,1,2,3
+//create conditional output
+result = (allTires[0] +allTires[1] +allTires[2] +allTires[3] > 34 ) ? "The tires pass spec!" : "Get your tires checked out!";
+console.log(result);
 
 
 
 
 
+
+
+
+
+
+
+
+
+/*if(frontOne = 32){
+    console.log("The tire passes spec");
+
+}else {
+    console.log("The tire needs to be checked");
+}
+if(frontTwo = 32){
+    console.log("The tire passes spec");
+
+}else {
+    console.log("The tire needs to be checked");
+}
+if(backOne = 34) {
+    console.log("The tire passes spec");
+
+}else {
+   console.log("The tire needs to be checked");
+}
+if(backTwo = 34){
+    console.log("The tire passes spec");
+
+}else {
+    console.log("The tire needs to be checked");
+}
+
+result = (allTires > 35) ? "The tires pass spect!" : "Get your tires checked out!";
+console.log(result);
+*/
 
 
 
