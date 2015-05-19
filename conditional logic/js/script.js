@@ -32,7 +32,7 @@ if(iphonePrice < budget || wonLottery){
   console.log("no phone for you!");
 } */
 
-var age= 11;
+var age = 11;
 var book;
 //if the child is under 10, they get green age and ham, if not they get time machie.
 book = (age <10) ? "green eggs and ham" : "the time machine";
