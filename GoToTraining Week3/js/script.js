@@ -10,7 +10,7 @@ section 01
 
 //create our virtual fruit bowl as an array
 var bowlOfFruit = ["apple","banana","pear","peach","pear","tamato","plum","pear","kiwi","pear"];
-
+alert(bowlOfFruit);
 //print out the whole array
 console.log(bowlOfFruit);
 
@@ -21,7 +21,7 @@ console.log(bowlOfFruit[1]);
 //how many items are inside of the array.
 //property of an array called length.
 //Dot syntax - fancy for use a period.
-console.log(bowlOfFruit.length);
+console.log(bowlOfFruit.length); //10
 
 //create a variable to count the number of pears in the array
 var totalNumPears = 0;
@@ -119,3 +119,45 @@ for(var i=0; i<bowlOfFruit.length; i++){
 
 console.log("the total number of pears in the bowl is "+pearsTotal);
 
+
+
+
+
+
+
+
+
+//validate user prompts
+//ask user for imput
+var userInput = prompt("please type in your name");
+
+// validate prompt to see if blank
+if(userInput===""){
+    //code will run if user leaves it blank
+    //re-prompt the user using the SAME variable above
+    userInput=prompt("please do not leave your name blank");
+}
+
+//ask for a number and test if that is what the user typed in
+//assume users are stupid..
+var numInput = prompt("type in ANY number");
+
+if(isNaN(numInput)){
+    //code will run if the user does not type in a number
+    //reprompt using the same variable.
+    numInput=prompt("please only use numbers. \nType in ANY number!");
+
+}console.log(isNaN("cat")); //is a text string of cat not a number // true
+console.log(isNaN(7)); //is the text string of seven not a number false
+
+
+
+
+var thirdPrompt = prompt("type in a number 1-10");
+
+//valiate for BOTH blank and a number
+if(thirdPrompt==="" || isNaN(thirdPrompt)){
+
+    thirdPrompt=prompt("please do not leave blank and only use number.|nType in a number 1-10");
+
+}
