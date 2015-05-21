@@ -9,7 +9,7 @@ section 01
 //are in a fruit bowl.
 
 //create our virtual fruit bowl as an array
-var bowlOfFruit = ["apple","banana","pear","peach","pear"];
+var bowlOfFruit = ["apple","banana","pear","peach","pear","tamato","plum","pear","kiwi","pear"];
 
 //print out the whole array
 console.log(bowlOfFruit);
@@ -85,4 +85,37 @@ if(bowlOfFruit[4]==="pear"){
 }
 //console log the total number pears.
 console.log(totalNumPears+" total number of pears in the fruit bowl.");
+
+//cycling through arrays, for loop
+/*
+for (initilize a counting variable; condition to test; increment of change to counting variable;) {
+code to run for each loop
+}
+ */
+
+
+
+//create a new variable to track the number of pears in an array
+var pearsTotal = 0;
+
+
+//++ means add 1
+for(var i=0; i<bowlOfFruit.length; i++){
+    //code to run each loop
+    console.log("the value of i is "+i);
+    //log each item in an array
+    console.log(bowlOfFruit[i]);
+
+    //test each item in the array if it is a pear
+    if(bowlOfFruit[i]==="pear"){
+       console.log("item is a pear!")
+        //add one to total
+        pearsTotal++;
+    } else {
+        console.log("not a pear");
+    }
+
+}
+
+console.log("the total number of pears in the bowl is "+pearsTotal);
 
