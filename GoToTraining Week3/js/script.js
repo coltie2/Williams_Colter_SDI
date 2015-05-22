@@ -153,11 +153,11 @@ console.log(isNaN(7)); //is the text string of seven not a number false
 
 
 
-var thirdPrompt = prompt("type in a number 1-10");
+var thirdPrompt = prompt("type in a number");
 
 //valiate for BOTH blank and a number
 if(thirdPrompt==="" || isNaN(thirdPrompt)){
 
-    thirdPrompt=prompt("please do not leave blank and only use number.|nType in a number 1-10");
+    thirdPrompt=prompt("please do not leave blank and only use numbers.\nType in a number");
 
 }
