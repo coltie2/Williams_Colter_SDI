@@ -29,7 +29,6 @@ if(childAge==="" || isNaN(childAge)) {
    childAge = prompt("Please do not leave this blank. And fill it out only using numbers.\nType in a number");
 }
 
-
 //create variable for age requirement( we don't want any kids over 6 years old attending this party.
 var ageReq = (childAge <= 6) ? "Your child's age is welcome to the party." : "Your child's age is to old for the party. Please ignore the following steps in the calculator because your child is not invited.";
 //send the ageReq to the console
@@ -131,6 +130,16 @@ console.log("The total amount of money you will need to bring to the party is $"
 //alert the user with the result.
 alert("The total amount of money you will need to bring to the party is $"+totalMoneyNeeded +".");
 
+//alert goodbye
+alert("Thank you for using the party master5000!");
 
 
+/* I tested my code by entering my name (Colter) as the parents name.
+Then I selected that my child is 4 years old.
+The calculator placed my child in table B which is for 3-4 year olds.
+Then I selected I want my child to buy 3 drinks and play 10 games.
+The calculator told me I will need to bring 34$ to the party. I also did the math on my calculator and it
+came out the same.
+code successful :) wooohoo
+ */
 
