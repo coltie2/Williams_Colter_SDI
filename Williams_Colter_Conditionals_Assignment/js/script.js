@@ -2,35 +2,36 @@
  * Created by ColterWilliams on 5/21/15.
  */
 
+//name the calculator
+alert("Welcome to the party master5000!");
 
 //Create an alert stating what this calculator does
-alert("Your child has been invited to a private 0-6 year old birthday party. This calculater will help you determine where your child sits at the party and how much money your child will need to bring to the party.");
+alert("Your child has been invited to a private 0-6 year old birthday party. This calculator will help you determine where your child sits at the party and how much money your child will need to bring to the party.");
 
 //prompt what is the name of the child attending.
-var childName = prompt("What is the name of the child attending the party?");
+var parentName = prompt("What is the parents name of the child attending the party?");
 
-// validate prompt to see if blank
-if(childName==="") {
-    //code will run if user leaves it blank
-    //re-prompt the user using the SAME variable above
-    childName = prompt("please do not leave your name blank");
+//validate prompt to see if the wording is blank
+if(parentName==="") {
+    childname = prompt("Please do not leave your name blank");
 }
+
 //alert the name of the users child as a greeting
-alert("Hello " +childName +" lets figure out what table you will be sitting at the party and how much money you will need to bring") ;
+alert("Hello "+parentName +" lets figure out what table your child will be sitting at the party and how much money you will need to bring for your child.");
 
 //prompt age for the users kid.
-var childAge = prompt("Please enter your child's age");
+var childAge = prompt("Please enter your child's age (Must Be 0-6 years old, no older).");
 //console log the age
 console.log(childAge);
 
-    //valiate for BOTH blank and a number
-    if(childAge==="" || isNaN(childAge)) {
+//validate for blank and a number
+if(childAge==="" || isNaN(childAge)) {
+   childAge = prompt("Please do not leave this blank. And fill it out only using numbers.\nType in a number");
+}
 
-        childAge = prompt("please do not leave blank and only use numbers.\nType in a number");
-    }
 
 //create variable for age requirement( we don't want any kids over 6 years old attending this party.
-var ageReq = (childAge <= 6) ? "Your child is welcome to the party" : "Your child is to old for the party";
+var ageReq = (childAge <= 6) ? "Your child's age is welcome to the party." : "Your child's age is to old for the party. Please ignore the following steps in the calculator because your child is not invited.";
 //send the ageReq to the console
 console.log(ageReq);
 //alert the user their child is ok to come to the party, or if their child is over age.
@@ -93,6 +94,8 @@ var drinkCost = 3.00;
 
 //prompt how many drinks wanted
 var drinksWanted = prompt("How many drinks at the party do you want your child to have? Each drink is $3.00");
+//submit drinks wanted to buy to the console
+console.log(drinksWanted);
 
 //validate for blank and a number
 if(drinksWanted==="" || isNaN(drinksWanted)) {
@@ -101,6 +104,8 @@ if(drinksWanted==="" || isNaN(drinksWanted)) {
 
 //prompt how many games wanted to play
 var gamesWanted = prompt("How many games at the party do you want your child to play? Each game is $2.50");
+//submit games wanted to play to the console
+console.log(gamesWanted);
 
 //validate for blank and a number
 if(gamesWanted==="" || isNaN(gamesWanted)) {
