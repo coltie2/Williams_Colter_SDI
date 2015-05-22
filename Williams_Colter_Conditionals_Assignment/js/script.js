@@ -85,3 +85,47 @@ if(childAge === "6"){
 }
 
 
+//game price
+var gamesCost = 2.50;
+
+//drink price
+var drinkCost = 3.00;
+
+//prompt how many drinks wanted
+var drinksWanted = prompt("How many drinks at the party do you want your child to have? Each drink is $3.00");
+
+//validate for blank and a number
+if(drinksWanted==="" || isNaN(drinksWanted)) {
+    drinksWanted = prompt("Please do not leave this blank. And fill it out only using numbers.\nType in a number");
+}
+
+//prompt how many games wanted to play
+var gamesWanted = prompt("How many games at the party do you want your child to play? Each game is $2.50");
+
+//validate for blank and a number
+if(gamesWanted==="" || isNaN(gamesWanted)) {
+    gamesWanted = prompt("Please do not leave this blank. And fill it out only using numbers.\nType in a number");
+}
+
+
+//alert food is free
+alert("Food is supplied for free at the party, don't worry your child won't starve.");
+
+//gameswanted * gamecost = how much money needed for games.
+var gameMoney = gamesWanted * +gamesCost;
+
+//drinkswanted * drinkcost = how much money needed for drinks.
+var drinkMoney = drinksWanted * +drinkCost;
+
+//gamemoney + drinkmoney = total money needed at the party.
+var totalMoneyNeeded = gameMoney + drinkMoney;
+
+//console.log the result
+console.log("The total amount of money you will need to bring to the party is $"+totalMoneyNeeded +".");
+
+//alert the user with the result.
+alert("The total amount of money you will need to bring to the party is $"+totalMoneyNeeded +".");
+
+
+
+
