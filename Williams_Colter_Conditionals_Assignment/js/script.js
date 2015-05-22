@@ -1,5 +1,8 @@
 /*/**
- * Created by ColterWilliams on 5/21/15.
+ * Created by Colter Williams
+ * 5/21/15
+ * Williams_Colter_Conditionals_Assignment
+ * Section 01
  */
 
 //name the calculator
