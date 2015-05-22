@@ -36,3 +36,52 @@ console.log(ageReq);
 //alert the user their child is ok to come to the party, or if their child is over age.
 alert(ageReq);
 
+// set meaning to the numbers listed below.
+ageSix = "6";
+ageFive = "5";
+ageFour = "4";
+ageThree = "3";
+ageTwo = "2";
+ageOne = "1";
+ageZero = "0";
+
+
+//make a if else if statement to show what table to users child sits at.
+//if child is 6 the child will sit at table A.
+if(childAge === "6"){
+    console.log("Your " +childAge +" year old will be sitting at table A. Which is for 5-6 year old kids.");
+    alert("Your " +childAge +" year old will be sitting at table A. Which is for 5-6 year old kids.");
+
+//if the child is 5 the child will sit at table A.
+}else if(childAge === "5"){
+    console.log("Your " +childAge +" year old will be sitting at table A. Which is for 5-6 year old kids.");
+    alert("Your " +childAge +" year old will be sitting at table A. Which is for 5-6 year old kids.");
+
+//if the child is 4 the child will sit at table B.
+}else if(childAge === "4"){
+    console.log("Your " +childAge +" year old will be sitting at table B. Which is for 3-4 year old kids.");
+    alert("Your " +childAge +" year old will be sitting at table B. Which is for 3-4 year old kids.");
+
+//if the child is 3 the child will sit at table B.
+}else if(childAge === "3"){
+    console.log("Your " +childAge +" year old will be sitting at table B. Which is for 3-4 year old kids.");
+    alert("Your " +childAge +" will be sitting at table B. Which is for 3-4 year old kids.");
+
+//if the child is 2 the child will sit at table C.
+}else if(childAge === "2"){
+    console.log("Your " +childAge +" year old will be sitting at table C. Which is for 0-2 year old kids.");
+    alert("Your " +childAge +" year old will be sitting at table C. Which is for 0-2 year old kids.");
+
+//if the child is 1 the child will sit at table C.
+}else if(childAge === "1"){
+    console.log("Your " +childAge +" year old will be sitting at table C. Which is for 0-2 year old kids.");
+    alert("Your " +childAge +" year old will be sitting at table C. Which is for 0-2 year old kids.");
+
+//if the child is 0(infants) the child will sit at table C.
+}else if(childAge === "0"){
+    console.log("Your " +childAge +" year old will be sitting at table C. Which is for 0-2 year old kids.");
+    alert("Your " +childAge +" will be sitting at table C. Which is for 0-2 year old kids.");
+
+}
+
+
