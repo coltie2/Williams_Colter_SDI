@@ -30,3 +30,5 @@ function calculateCircumference(d,r,p){
 
 //create variable for vitims weight(in pounds)
 var victimWeightInPounds = 150;
+//create variable for number of bee stings per pound
+var stingsPerPound = 8.666666667;
