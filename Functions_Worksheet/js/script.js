@@ -27,3 +27,6 @@ function calculateCircumference(d,r,p){
 
 
 //PROBLEM 2:
+
+//create variable for vitims weight(in pounds)
+var victimWeightInPounds = 150;
