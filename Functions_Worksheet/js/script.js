@@ -13,3 +13,6 @@ var radius = 15;
 var pi = 3.14;
 //Create variable for circumference
 var circumference = calculateCircumference(diameter,radius,pi);
+//create console.log for the circumference of a circle is
+console.log("The circumference of a circle is" +circumference);
+
