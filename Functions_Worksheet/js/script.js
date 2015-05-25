@@ -36,3 +36,9 @@ var stingsPerPound = 8.666666667;
 
 //create variable for final answer: how many stings will kill so many pounds.
 var stingsToKill = calculateStingsTillDeath(victimWeightInPounds,stingsPerPound);
+//create console.log to record the result
+console.log("It takes " +stingsToKill +" bee stings to kill this animal.");
+
+
+
+
