@@ -4,6 +4,8 @@
  * Section 01
  */
 
-//Calculate the circumference of a circle@
-//Create a variable for diameter
+//Calculate the circumference of a circle!
+//Create a variable for diameter.
 var diameter = 2;
+//Create variable for Radius.
+var radius = 15;
