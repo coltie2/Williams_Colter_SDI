@@ -4,7 +4,7 @@
  * Section 01
  */
 
-//Calculate the circumference of a circle!
+//PROBLEM 1: Calculate the circumference of a circle!
 //Create a variable for diameter.
 var diameter = 2;
 //Create variable for Radius.
