@@ -39,6 +39,9 @@ var stingsToKill = calculateStingsTillDeath(victimWeightInPounds,stingsPerPound)
 //create console.log to record the result
 console.log("It takes " +stingsToKill +" bee stings to kill this animal.");
 
-
+//create function for determining how many bee stings will kill this animal.
+function calculateStingsTillDeath(v,s){
+    return v * s; //create return result for pounds X stings = death
+}
 
 
