@@ -18,11 +18,9 @@ var oldWeight = prompt("Enter old weight in pounds");
 //valiate for BOTH blank and a number using a while loop
 while (oldWeight==="" || isNaN(oldWeight)){
 
-    oldWeight = prompt("please do not leave blank and only use numbers.\nType in a number");
+    oldWeight = prompt("please do not leave blank and only use numbers.\nType in a number.");
 
 }
-
-var oldWeight2 = oldWeight;
 
 //create variable for current weight (pounds)
 var currentWeight = prompt("Enter current weight in pounds");
@@ -30,9 +28,8 @@ var currentWeight = prompt("Enter current weight in pounds");
 //valiate for BOTH blank and a number using a while loop
 while (currentWeight==="" || isNaN(currentWeight)) {
 
-    currentWeight = prompt("please do not leave blank and only use numbers.\nType in a number");
+    currentWeight = prompt("please do not leave blank and only use numbers.\nType in a number.");
 }
-
 
 //percent is 100 variable
 var percent100 = 100;
@@ -42,16 +39,30 @@ alert("Processing information! One moment Please.");
 
 //create function variable for weight
 var resultWeight = calculatePercent(currentWeight,oldWeight);
-console.log("Your weight change is " +resultWeight +" pounds more or less.");
+
+console.log("Your weight change is " +resultWeight +" pounds.");
+
+alert("Your weight change is " +resultWeight +" pounds.");
 
 //create first function
 function calculatePercent(c,o){
       return c - o;
 }
 
-var resultPercent = function(weight,weight2,weight3,percent){
-    var result = weight - weight2 / weight3 * percent;
-    return result;
+//prompt the user to input the weight number given
+var weight = prompt("Enter the amount of wait change the calculator just gave to you. Now the calculator will tell you your percent of weight change.");
+
+//valiate for BOTH blank and a number using a while loop
+while (weight==="" || isNaN(weight)) {
+
+   weight = prompt("please do not leave blank and only use numbers.\nType in a number.");
 }
-var a = resultPercent(currentWeight,oldWeight,oldWeight2,percent100);
+
+
+var resultPercent = function(w,ow,p){
+    var result = w / ow * p;
+    return result;
+
+}
+var a = resultPercent(weight,oldWeight,percent100);
 console.log(a);
