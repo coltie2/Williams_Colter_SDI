@@ -30,6 +30,12 @@ var resultWeight = calculatePercent(currentWeight,oldWeight);
 console.log("Your weight change is " +resultWeight +" pounds more or less.");
 
 //create first function
-function calculatePercent(c,o,){
+function calculatePercent(c,o){
       return c - o;
 }
+
+var resultPercent = function(weight, weight2, weight3,percent){
+    var result = weight - weight2 / weight2 * percent
+};
+var a = resultPercent(currentWeight,oldWeight,oldWeight,percent100);
+console.log(a);
