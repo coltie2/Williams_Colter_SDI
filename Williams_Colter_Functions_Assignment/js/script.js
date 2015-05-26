@@ -15,15 +15,30 @@ alert("Welcome to the body calculator. This calculator will help you calculate h
 //create variable for old weight (pounds)
 var oldWeight = prompt("Enter old weight in pounds");
 
+//valiate for BOTH blank and a number using a while loop
+while (oldWeight==="" || isNaN(oldWeight)){
+
+    oldWeight = prompt("please do not leave blank and only use numbers.\nType in a number");
+
+}
+
+var oldWeight2 = oldWeight;
+
 //create variable for current weight (pounds)
 var currentWeight = prompt("Enter current weight in pounds");
+
+//valiate for BOTH blank and a number using a while loop
+while (currentWeight==="" || isNaN(currentWeight)) {
+
+    currentWeight = prompt("please do not leave blank and only use numbers.\nType in a number");
+}
 
 
 //percent is 100 variable
 var percent100 = 100;
 
 //loading screen for fun
-alert("Processing information!One moment Please.");
+alert("Processing information! One moment Please.");
 
 //create function variable for weight
 var resultWeight = calculatePercent(currentWeight,oldWeight);
@@ -34,8 +49,9 @@ function calculatePercent(c,o){
       return c - o;
 }
 
-var resultPercent = function(weight, weight2, weight3,percent){
-    var result = weight - weight2 / weight2 * percent
-};
-var a = resultPercent(currentWeight,oldWeight,oldWeight,percent100);
+var resultPercent = function(weight,weight2,weight3,percent){
+    var result = weight - weight2 / weight3 * percent;
+    return result;
+}
+var a = resultPercent(currentWeight,oldWeight,oldWeight2,percent100);
 console.log(a);

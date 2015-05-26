@@ -77,7 +77,7 @@ function calcAreaP(width, height){
 
 //functions - anonymous functions
 
-/*var calcArea = function(width, height){ //defining
+var calcArea = function(width, height){ //defining
     //code the function runs
     var area = width * height;
     return area;
@@ -85,11 +85,11 @@ function calcAreaP(width, height){
 var a = calcArea(20, 30); //invoking
 
 console.log(a);
-*/
+
 
 //console.log(looooooooooops)
 
-/* var b = 10; //sets the index
+ var b = 10; //sets the index
 
 while (b > 0){ //sets the condition
     console.log(b + " kegs on the wall");
@@ -110,7 +110,8 @@ while(c > 0);
 
 
 //for poops
-
+/*
 for (var i = 10; i > 0; i--){
     console.log(i + " kegs on the wall");
 }
+*/
